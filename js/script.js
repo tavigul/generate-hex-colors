@@ -19,16 +19,16 @@
         body.style.backgroundColor = hex;
     }
 
-    hexValue.addEventListener("click", copyValueToClipBoard)
+    // hexValue.addEventListener("click", copyValueToClipBoard)
 
-    function copyValueToClipBoard() {
-        /* Select the text field */
-        hexValue.select();
-        hexValue.setSelectionRange(0, 99999); /* For mobile devices */
+    // function copyValueToClipBoard() {
+    //     /* Select the text field */
+    //     hexValue.select();
+    //     hexValue.setSelectionRange(0, 99999); /* For mobile devices */
 
-        /* Copy the text inside the text field */
-        navigator.clipboard.writeText(hexValue.value);
-    }
+    //     /* Copy the text inside the text field */
+    //     navigator.clipboard.writeText(hexValue.value);
+    // }
 
 })()
 
